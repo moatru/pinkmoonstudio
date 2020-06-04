@@ -40,9 +40,9 @@
   .tall-50  {  min-height: 50vh;   }
   .tall-100 {  min-height: 100vh;  }
 
-  .dark-bg      {  background-color: #f3b4a1;     }
+  .dark-bg      {  background-color: #425783;     }
   .light-bg     {  background-color: #cb814f;  }
-  .featured-bg  {  background-color: #ffdfc3;       }
+  .featured-bg  {  background-color: #f3b4a1;       }
 
   .light-text   { color: white; }
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
@@ -87,8 +87,10 @@
   .no-bullets { list-style:none; } /* Used to remove dot-points from a list */
 
   .big-bold {
+    text-transform: uppercase;
     font-size: 3rem;
     font-weight: 700;
+    color: #f3b4a1;
   }
 
   p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
