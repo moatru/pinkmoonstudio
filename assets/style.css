@@ -88,6 +88,13 @@
 
   .big-bold {
     text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #cb814f;
+  }
+
+  .big-bold-logo {
+    text-transform: uppercase;
     font-size: 3rem;
     font-weight: 700;
     color: #f3b4a1;
@@ -100,7 +107,8 @@
   /* Icons */
  /* default styles for font awesome icons */
   .fab, .fas, .far{
-    font-size: 3rem;
+    padding: 1rem;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
     color: #f3b4a1;
   }
@@ -195,12 +203,12 @@
 
   /* Headers and footers */
 a {
-  color: #f3b4a1;
+  color: #425783;
   transition: 1s;
 }
 
 a:hover {
-  color: #425783;
+  color:#f3b4a1;
 }
 
   header {
