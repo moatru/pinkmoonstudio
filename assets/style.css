@@ -334,9 +334,10 @@ a:hover {
   .banner,
   .banner-with-header {
     background-image: url('../images/freebiegraphic.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     min-height: 80vh;
+    background-repeat: no-repeat;
   }
 
   .fixed {
