@@ -111,6 +111,7 @@
     font-size: 3.5rem;
     margin-bottom: 1rem;
     color: #f3b4a1;
+    transition: 1s
   }
 
 .far:hover, .fab:hover{
@@ -209,6 +210,7 @@ a {
 
 a:hover {
   color:#f3b4a1;
+  transition: 1s;
 }
 
   header {
