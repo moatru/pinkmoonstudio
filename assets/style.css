@@ -94,16 +94,22 @@
   }
 
   p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   /* Icons */
  /* default styles for font awesome icons */
-  .fab, .fas, .far {
-    font-size: 5rem;
+  .fab, .fas, .far{
+    font-size: 3rem;
     margin-bottom: 1rem;
     color: #f3b4a1;
   }
+
+.far:hover, .fab:hover{
+  color: #cb814f;
+  transition: 1s;
+}
+
 
   .featured-stat {     /* styles for our featured statistic icons  */
     font-size: 3rem;
@@ -188,6 +194,14 @@
 
 
   /* Headers and footers */
+a {
+  color: #f3b4a1;
+  transition: 1s;
+}
+
+a:hover {
+  color: #425783;
+}
 
   header {
     padding: 2% 5%;
