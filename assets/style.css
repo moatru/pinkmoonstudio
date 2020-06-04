@@ -41,7 +41,7 @@
   .tall-100 {  min-height: 100vh;  }
 
   .dark-bg      {  background-color: #425783;     }
-  .light-bg     {  background-color: #cb814f;  }
+  .light-bg     {  background-color:rgb(203, 129, 79, .5) ;  }
   .featured-bg  {  background-color: #f3b4a1;       }
 
   .light-text   { color: white; }
