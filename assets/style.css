@@ -99,7 +99,7 @@
 
   /* Icons */
 
-  .far {        /* default styles for font awesome icons */
+  .fab .fas .far{        /* default styles for font awesome icons */
     font-size: 10rem;
     margin-bottom: 1rem;
     color: #f3b4a1;
