@@ -108,7 +108,7 @@
  /* default styles for font awesome icons */
   .fab, .fas, .far{
     padding: 1rem;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     color: #f3b4a1;
     transition: 1s
@@ -348,7 +348,6 @@ a:hover {
     background-size: contain;
     background-position: center;
     min-height: 80vh;
-    max-height: 80vh;
     background-repeat: no-repeat;
   }
 
