@@ -100,8 +100,9 @@
   /* Icons */
 
   .far {        /* default styles for font awesome icons */
-    font-size: 2rem;
+    font-size: 10rem;
     margin-bottom: 1rem;
+    color: #f3b4a1;
   }
 
   .featured-stat {     /* styles for our featured statistic icons  */
