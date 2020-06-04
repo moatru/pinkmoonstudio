@@ -206,6 +206,7 @@
 a {
   color: #425783;
   transition: 1s;
+  text-decoration: none;
 }
 
 a:hover {
@@ -347,6 +348,7 @@ a:hover {
     background-size: contain;
     background-position: center;
     min-height: 80vh;
+    max-height: 80vh;
     background-repeat: no-repeat;
   }
 
