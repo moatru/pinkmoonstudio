@@ -98,9 +98,9 @@
   }
 
   /* Icons */
-
-  .fab .fas .far{        /* default styles for font awesome icons */
-    font-size: 10rem;
+ /* default styles for font awesome icons */
+  .fab, .fas, .far {
+    font-size: 5rem;
     margin-bottom: 1rem;
     color: #f3b4a1;
   }

@@ -2,3 +2,9 @@ body {
   font-family: 'Quicksand', sans-serif;
   color: black;
 }
+
+.fab, .fas, .far{        /* default styles for font awesome icons */
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: #f3b4a1;
+}
