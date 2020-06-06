@@ -378,7 +378,7 @@ a:hover {
     background-image: url('../images/freebiegraphic.jpg');
     background-size: contain;
     background-position: center;
-    min-height: 15rem;
+    min-height: 25rem;
     background-repeat: no-repeat;
   }
   /* Hover grid */
