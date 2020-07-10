@@ -16,7 +16,7 @@
   }
 
   body {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Quicksand', sans-serif;
     color: black;
   }
 
@@ -58,8 +58,11 @@
 
   h2  { font-size: 2.2rem;  }
   h3  { font-size: 1.8rem;  }
-  h4  { font-size: 1.3rem; color: #fdc28e;}
+  h4  { font-size: 1.3rem; color: #425783;}
+  h5 { font-size: 1.3rem; color: #fdc28e; font-family: 'Fredoka One', cursive;}
   p   { font-size: 1rem;  }
+
+
 
   p, ul {
      margin-bottom: 0.8rem;
