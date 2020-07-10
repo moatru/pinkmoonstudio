@@ -1,1 +1,11 @@
 
+.bg-landing {
+  background-image: url('../images/pinkmoon.gif');
+  background-position: center;
+  min-height: 50vh;
+  background-size: cover;
+}
+
+.pms {
+  margin-top: 15rem;
+}
