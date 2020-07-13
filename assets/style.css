@@ -59,8 +59,18 @@
   h2  { font-size: 2.2rem;  }
   h3  { font-size: 1.8rem;  }
   h4  { font-size: 1.3rem; color: #425783;}
-  h5 { font-size: 1.3rem; color: #fdc28e; font-family: 'Fredoka One', cursive;}
-  p   { font-size: 1rem;  }
+  p   { font-size: 1rem; }
+
+  h4.landing {
+    font-size: 1.3rem;
+    color: #fdc28e;
+    font-family: 'Fredoka One', cursive;}
+
+  h2.landing {
+    font-size: 4rem;
+    color: #100113; font-family: 'Modak', cursive;
+    text-transform: uppercase;
+    font-weight: 400;}
 
 
 

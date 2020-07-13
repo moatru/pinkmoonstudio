@@ -2,10 +2,29 @@
 .bg-landing {
   background-image: url('../images/pinkmoon.gif');
   background-position: center;
-  min-height: 50vh;
+  min-height: 85vh;
   background-size: cover;
 }
 
 .pms {
   margin-top: 15rem;
+}
+
+.title {
+  position:relative;
+  bottom:-10px;
+}
+
+.container {
+  position: relative;
+  max-width: 100%; /* Maximum width */
+  min-height: 80vh;
+  margin: 0 auto; /* Center it */
+}
+
+.content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  color:#100113;
+  width: 100%; /* Full width */
 }
