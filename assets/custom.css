@@ -29,7 +29,7 @@ h2.landing {
 .container {
   position: relative;
   max-width: 100%; /* Maximum width */
-  min-height: 70vh;
+  min-height: 80vh;
   margin: 0 auto; /* Center it */
 }
 
