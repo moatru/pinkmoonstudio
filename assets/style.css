@@ -129,7 +129,7 @@
   }
 
 .far:hover, .fab:hover{
-  color: #cb814f;
+  color: #a6c8eb;
   transition: 1s;
 }
 
@@ -342,7 +342,7 @@ a:hover {
 
   /* -- Footer -- */
 footer {
-  background-color: #eaf2f8;
+  background-color: white;
 }
 
   footer .info {
