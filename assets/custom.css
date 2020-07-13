@@ -10,6 +10,17 @@
   margin-top: 15rem;
 }
 
+h4.landing {
+  font-size: 1.3rem;
+  color: #fdc28e;
+  font-family: 'Fredoka One', cursive;}
+
+h2.landing {
+  font-size: 4rem;
+  color: #100113; font-family: 'Modak', cursive;
+  text-transform: uppercase;
+  font-weight: 400;}
+
 .title {
   position:relative;
   bottom:-10px;
@@ -18,7 +29,7 @@
 .container {
   position: relative;
   max-width: 100%; /* Maximum width */
-  min-height: 80vh;
+  min-height: 70vh;
   margin: 0 auto; /* Center it */
 }
 
@@ -28,3 +39,20 @@
   color:#100113;
   width: 100%; /* Full width */
 }
+
+/* This media query kicks into action at the gridlex sm breakpoint */
+@media(max-width:768px) {
+  h4.landing {
+    font-size: 1rem;
+    color: #fdc28e;
+    font-family: 'Fredoka One', cursive;}
+
+  h2.landing {
+    font-size: 3rem;
+    color: #100113; font-family: 'Modak', cursive;
+    text-transform: uppercase;
+    font-weight: 400;}
+
+    .container {
+      min-height: 70vh;
+    }
