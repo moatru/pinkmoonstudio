@@ -42,8 +42,8 @@
   .tall-100 {  min-height: 100vh;  }
 
   .dark-bg      {  background-color: #425783;     }
-  .light-bg     {  background-color:#f3b4a1;  }
-  .featured-bg  {  background-color: #f3b4a1;       }
+  .light-bg     {  background-color:#f4ECF7;  }
+  .featured-bg  {  background-color:#f3b4a1;       }
 
   .light-text   { color: white; }
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
@@ -125,7 +125,7 @@
 
   .featured-stat {     /* styles for our featured statistic icons  */
     font-size: 3rem;
-    color: #e67e22;
+    color: #a6c8eb;
     margin-bottom: 1rem;
     display: block;
   }
@@ -149,7 +149,7 @@
   .button-solid,
   .button-inverted {
     text-decoration: none;
-    color: #e67e22;
+    color: #fdc28e;
     border: 2px solid;
     padding: 0.6rem 2rem;
     margin-top: 1rem;
@@ -157,10 +157,11 @@
     text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: 500;
+    transition: all 1s;
   }
 
   .button:hover {
-    color: rgb(60, 60, 60);
+    color: #a6c8eb;
   }
 
   .button.inverted {   /* this is for a button on a dark background */
@@ -213,7 +214,7 @@ a {
 }
 
 a:hover {
-  color:#f3b4a1;
+  color: #a6c8eb;
   transition: 1s;
 }
 
@@ -517,7 +518,7 @@ footer {
   input,
   textarea {
     border-style: solid;
-    border: 2px solid rgb(200, 200, 205);
+    border: 2px solid #fadede;
     padding: 0.8em;
     display: block;
     width: 100%;
@@ -528,7 +529,7 @@ footer {
   input:focus,
   textarea:focus {
     outline: none;
-    border: 2px solid #e67e22;
+    border: 2px solid #a6c8eb;
     /* featured color */
   }
 
@@ -703,7 +704,7 @@ footer {
   padding: 0.25rem;
   margin: 0.25rem 0;
   display:block;
-  color: #e67e22;
+  color: #100113;
   position: relative;
   text-decoration: none;
 }
@@ -726,7 +727,7 @@ footer {
   transition: all .35s;
 }
 
-/* NEED DANIELs HELP to stop auto popping back open, and make the thing twist */
+
 .accordion dt a::after {
   content: "+";
 }
