@@ -42,7 +42,7 @@
   .tall-100 {  min-height: 100vh;  }
 
   .dark-bg      {  background-color: #425783;     }
-  .light-bg     {  background-color:#f4ECF7;  }
+  .light-bg     {  background-color:#f9ebea;  }
   .featured-bg  {  background-color:#f3b4a1;       }
 
   .light-text   { color: white; }
@@ -704,9 +704,13 @@ footer {
   padding: 0.25rem;
   margin: 0.25rem 0;
   display:block;
-  color: #100113;
+  color: #fdc28e;
   position: relative;
+  font-size: 1.2rem;
   text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  text-transform: uppercase;
+
 }
 .accordion dd {
   padding: 0.5rem;
