@@ -40,6 +40,20 @@ h2.landing {
   width: 100%; /* Full width */
 }
 
+.star {
+  font-size: 1.3rem;
+  background-image: url("/images/pastel.gif");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 5px;
+}
+
+.heart {
+  font-size: 1rem;
+  color: #fdc28e;
+  padding: 5px 0 5px 50px;
+}
+
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
   h4.landing {
