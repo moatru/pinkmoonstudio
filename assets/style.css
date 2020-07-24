@@ -35,7 +35,7 @@
   .padded   {  padding:  2% 5% 2% 5%;    }
   .padded-work {padding: 4%}
   .padded-title {padding: 0% 0% 5% 0%}
-  .padded-1 {  padding: 1% 0;  }
+  .padded-1 {  padding: 2%;  }
   .padded-2 {  padding: 2rem;  }
 
   .capped-width { width: 80%; margin: auto;}
@@ -796,5 +796,26 @@ footer {
 
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px) {
+
+h2 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+.media-flip {
+  flex-direction: column-reverse;
+}
+
+.fab, .far, .fas {
+  font-size: 2rem;
+}
+
+
+.accordion dt a {
+  font-size: .85rem;
+}
 
 } /* end media query */

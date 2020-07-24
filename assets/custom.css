@@ -132,3 +132,7 @@ img.illustration:hover {
     .container {
       min-height: 50vh;
     }
+
+    .xs-mob-hide {
+      display: none;
+    }
