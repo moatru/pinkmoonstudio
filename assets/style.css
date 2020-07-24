@@ -33,7 +33,9 @@
   .bottom   { text-align: bottom;   }
 
   .padded   {  padding:  2% 5% 2% 5%;    }
-  .padded-1 {  padding: 1rem;  }
+  .padded-work {padding: 4%}
+  .padded-title {padding: 0% 0% 5% 0%}
+  .padded-1 {  padding: 1% 0;  }
   .padded-2 {  padding: 2rem;  }
 
   .capped-width { width: 80%; margin: auto;}
@@ -54,11 +56,11 @@
     line-height: 1;
     margin-bottom: 0.8rem;
     text-transform: uppercase;
-    font-weight: 400
+    font-weight: 400;
     font-family: 'Fredoka One', cursive;
   }
 
-  h2  { font-size: 2.5rem; font-family: 'Modak', cursive; font-weight: 400;}
+  h2  { font-size: 2.5rem; font-family: 'Modak', cursive; font-weight: 400;letter-spacing: 1.5px;}
   h3  { font-size: 1.8rem; }
   h4  { font-size: 1.3rem; color: #fdc28e;}
   p   { font-size: 1rem; }
@@ -151,13 +153,15 @@
     text-decoration: none;
     color: #fdc28e;
     border: 2px solid;
-    padding: 0.6rem 2rem;
+    padding: 1rem 1rem;
     margin-top: 1rem;
     display: inline-block;
     text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: 500;
     transition: all 1s;
+    font-family: 'Fredoka One', cursive;
+
   }
 
   .button:hover {
@@ -175,14 +179,15 @@
   }
 
   .button-solid {
-    background-color: #e67e22;
-    border-color: #e67e22;
-    color: white;
+    background-color: #fadede;
+    border-color: #fadede;
+    color: #100113;
   }
 
   .button-solid:hover {
-    background-color: rgb(60, 60, 60);
-    border-color: rgb(60, 60, 60);
+    background-color: #a6c8eb;
+    border-color: #a6c8eb;
+    color: #100113;
   }
 
   .arrow { /* this is the arrow button */
