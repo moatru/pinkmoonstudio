@@ -551,6 +551,20 @@ footer {
     padding: 5px;
   }
 
+  /* ----------- INPUT FIELDS FOR GET IN TOUCH ----------- */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fdc28e;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fdc28e;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fdc28e;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fdc28e;
+}
+
   .email-signup input {
     width: 30%;
     display: inline-block;
@@ -565,6 +579,8 @@ footer {
   }
    form .button {
      width:100%;
+     background-color: white;
+     color: #fadede;
    }
 
    @media(max-width:768px) {
@@ -703,6 +719,7 @@ footer {
   height: 100%;
 }
 
+/* FAQ SECTION */
 /* Accordian slides */
 
 .accordion dt a {
