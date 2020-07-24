@@ -738,10 +738,14 @@ footer {
 
 
 .accordion dt a::after {
-  content: "+";
+  content: ":)";
+  transform: rotateZ(90deg);
+  padding: 0 1rem;
 }
-.open::after {
-  transform: rotateZ(45deg);
+
+.accordion dt .open::after {
+  transform: rotateZ(450deg);
+  content: ':P';
 }
 
 /* This media query kicks into action at the gridlex sm breakpoint */
