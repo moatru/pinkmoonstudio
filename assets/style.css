@@ -706,7 +706,7 @@ footer {
 /* Accordian slides */
 
 .accordion dt a {
-  padding: 0.25rem;
+  padding: 0.25rem 1rem;
   margin: 0.25rem 0;
   display:block;
   color: #fdc28e;
@@ -718,7 +718,7 @@ footer {
 
 }
 .accordion dd {
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 
 /* Accordian Icon */
@@ -741,6 +741,7 @@ footer {
   content: ":)";
   transform: rotateZ(90deg);
   padding: 0 1rem;
+  color: #a6c8eb;
 }
 
 .accordion dt .open::after {
