@@ -42,7 +42,7 @@ h2.landing {
 
 .star {
   font-size: 1.3rem;
-  background-image: url("/images/pastel.gif");
+  background-image: url("/images/cloudy.gif");
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 5px;
