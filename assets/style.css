@@ -17,7 +17,7 @@
 
   body {
     font-family: 'Quicksand', sans-serif;
-    color: black;
+    color: #100113;
   }
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -52,7 +52,7 @@
 
   /* General typography */
 
-  h2, h3, h4, h5, h6 {
+ h3,h5, h6 {
     line-height: 1;
     margin-bottom: 0.8rem;
     text-transform: uppercase;
@@ -68,7 +68,7 @@
         margin-bottom: 0.8rem;
         text-transform: uppercase;}
   h3  { font-size: 1.8rem; }
-  h4  { font-size: 1.5rem;
+  h4  { font-size: 1.4rem;
         color: #a6c8eb;
         font-family: 'Modak', cursive;
         font-weight: 400;
@@ -121,7 +121,12 @@
   }
 
   p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
-    font-size: 1.3rem;
+    font-size: 1rem;
+    font-family: 'Fredoka One', cursive;
+  }
+
+  p.bullets {
+    margin-bottom: 0.3rem;
   }
 
   /* Icons */
