@@ -274,8 +274,8 @@ a:hover {
     text-transform: uppercase;
     border-radius: 2px;
     font-size: 1.2rem;
-    background-color: #e67e22;
-    background-image: url("/images/pastel.gif");
+    background-color: #fadede;
+    background-image: url("/images/cloudy.gif");
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 5px;}
