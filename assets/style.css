@@ -60,9 +60,24 @@
     font-family: 'Fredoka One', cursive;
   }
 
-  h2  { font-size: 2.5rem; font-family: 'Modak', cursive; font-weight: 400;letter-spacing: 1.5px;}
+  h2  { font-size: 2.7rem;
+        font-family: 'Modak', cursive;
+        font-weight: 400;
+        letter-spacing: 8px;
+        line-height: 1;
+        margin-bottom: 0.8rem;
+        text-transform: uppercase;}
   h3  { font-size: 1.8rem; }
-  h4  { font-size: 1.3rem; color: #fdc28e;}
+  h4  { font-size: 1.5rem;
+        color: #a6c8eb;
+        font-family: 'Modak', cursive;
+        font-weight: 400;
+        letter-spacing: 3px;
+        line-height: 1;
+        margin-bottom: 0.8rem;
+        text-transform: uppercase;}
+  h5 {}
+
   p   { font-size: 1rem; }
 
   p, ul {
