@@ -52,7 +52,7 @@
 
   /* General typography */
 
- h3,h5, h6 {
+ h3,h6 {
     line-height: 1;
     margin-bottom: 0.8rem;
     text-transform: uppercase;
@@ -60,17 +60,20 @@
     font-family: 'Fredoka One', cursive;
   }
 
-  h2  { font-size: 2.7rem;
+  h2  { font-size: 3rem;
         font-family: 'Modak', cursive;
         font-weight: 400;
         letter-spacing: 8px;
         line-height: 1;
         margin-bottom: 0.8rem;
         text-transform: uppercase;}
+
   h3  { font-size: 1.8rem;
         text-transform: none;
-      letter-spacing: 5px;}
-  h4  { font-size: 1.5rem;
+        letter-spacing: 5px;
+        font-weight: 400;}
+
+  h4  { font-size: 2rem;
         color: #a6c8eb;
         font-family: 'Modak', cursive;
         font-weight: 400;
@@ -78,7 +81,15 @@
         line-height: 1;
         margin-bottom: 0.8rem;
         text-transform: uppercase;}
-  h5 {}
+
+  h5 { font-size: 1.5rem;
+        color: #a6c8eb;
+        font-family: 'Modak', cursive;
+        font-weight: 400;
+        letter-spacing: 3px;
+        line-height: 1;
+        margin-bottom: 0.8rem;
+        text-transform: uppercase;}
 
   p   { font-size: 1rem; }
 
@@ -123,8 +134,9 @@
   }
 
   p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: 'Fredoka One', cursive;
+    letter-spacing: 2px;
   }
 
   p.bullets {
@@ -235,7 +247,7 @@
 
   /* Headers and footers */
 a {
-  color: #425783;
+  color: #fadede;
   transition: 1s;
   text-decoration: none;
 }
@@ -261,21 +273,24 @@ a:hover {
     display: inline-block;
     text-transform: uppercase;
     padding: 0.5rem;
-    font-family: 'Fredoka One', cursive;}
+    font-family: 'Modak', cursive;
+    font-size: 1.3rem;
+    font-weight: 400;
+    transition: all 1s}
   }
   nav a:hover {
-    color: #e67e22;
+    color: #a6c8eb;
   }
 
   header nav a.emphasis {
     padding: 0.5rem 2rem;
     margin: 0 0.5rem;
-    border: 1px solid url("/images/pastel.gif");
+    /* border: 1px solid url("/images/pastel.gif"); */
     font-family: 'Modak', cursive;
     font-weight: 400;
     text-transform: uppercase;
     border-radius: 2px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     background-color: #fadede;
     background-image: url("/images/cloudy.gif");
     -webkit-background-clip: text;
@@ -283,9 +298,13 @@ a:hover {
     padding: 5px;}
   }
 
+
   header nav a.emphasis:hover {
-    background-color: #e67e22;
-    color: white;
+    background-color: white;
+    color: #a6c8eb;
+    background-image: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #a6c8eb;
   }
 
   /* Dropdown Header */
@@ -751,13 +770,14 @@ footer {
   color: #fdc28e;
   position: relative;
   font-size: 1.3rem;
+  letter-spacing: 3px;
   text-decoration: none;
   font-family: 'Fredoka One', cursive;
   text-transform: uppercase;
 
 }
 .accordion dd {
-  padding: 0.5rem 1rem;
+  padding: 1.2rem 1rem 2.5rem 1rem;
 }
 
 /* Accordian Icon */

@@ -115,6 +115,15 @@ img.illustration:hover {
   transition: all 2s;
 }
 
+img.morearrow {
+  transition: all 2s;
+}
+
+img.morearrow:hover{
+   transform: translateX(30px);
+  transition: all 2s;
+}
+
 
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
