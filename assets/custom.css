@@ -26,6 +26,20 @@ h2.landing {
   bottom:-10px;
 }
 
+h6.mollyt{
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+  font-family: 'Londrina Outline', cursive;
+  background-image: url("/images/lightglitter.gif");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .container {
   position: relative;
   max-width: 100%; /* Maximum width */

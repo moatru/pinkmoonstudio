@@ -68,25 +68,26 @@
         margin-bottom: 0.8rem;
         text-transform: uppercase;}
 
-  h3  { font-size: 1.8rem;
-        text-transform: none;
-        letter-spacing: 5px;
+  h3  { font-size: 2.2rem;
+        font-family: 'Modak', cursive;
+        text-transform: uppercase;
+        letter-spacing: 3px;
         font-weight: 400;}
 
-  h4  { font-size: 2rem;
+  h4  { font-size: 1.5rem;
         color: #a6c8eb;
-        font-family: 'Modak', cursive;
+        font-family: 'Fredoka One', cursive;
         font-weight: 400;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         line-height: 1;
         margin-bottom: 0.8rem;
         text-transform: uppercase;}
 
-  h5 { font-size: 1.5rem;
+  h5 { font-size: 1.2rem;
         color: #a6c8eb;
-        font-family: 'Modak', cursive;
+        font-family: 'Fredoka One', cursive;
         font-weight: 400;
-        letter-spacing: 3px;
+        letter-spacing: 1.5px;
         line-height: 1;
         margin-bottom: 0.8rem;
         text-transform: uppercase;}
