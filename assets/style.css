@@ -821,11 +821,19 @@ footer {
 }
 
 /* This media query kicks into action at the gridlex sm breakpoint */
+@media(max-width:1024px)
+
+/* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
 
   .mob-hide {
     display: none;
   }
+
+  img.mob-hide{
+    display:none;
+  }
+
   .hamburger{
     display: block;
   }
@@ -853,11 +861,24 @@ footer {
 
 h2 {
   font-size: 2rem;
+  letter-spacing: 4px;
 }
+
+h3 {
+    font-size: 1.7rem;
+    letter-spacing: 3px;
+    }
+
 
 h4 {
   font-size: 1.1rem;
+  letter-spacing: 1px;
 }
+
+h5 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
 
 .media-flip {
   flex-direction: column-reverse;
@@ -867,9 +888,8 @@ h4 {
   font-size: 2rem;
 }
 
-
 .accordion dt a {
-  font-size: .85rem;
+  font-size: 1rem;
 }
 
 } /* end media query */

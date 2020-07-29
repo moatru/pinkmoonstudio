@@ -43,7 +43,7 @@ h6.mollyt{
 .container {
   position: relative;
   max-width: 100%; /* Maximum width */
-  min-height: 80vh;
+  min-height: 85vh;
   margin: 0 auto; /* Center it */
 }
 
@@ -52,6 +52,14 @@ h6.mollyt{
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   color:#100113;
   width: 100%; /* Full width */
+}
+
+img.home{
+  position: absolute;
+  margin: 0 auto; /* Center it */
+  max-width: 10%; /* Maximum width */
+  min-height: 10vh;
+  z-index: -1;
 }
 
 .star {
