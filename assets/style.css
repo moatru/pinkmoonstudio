@@ -896,6 +896,7 @@ h5 {
 
 .accordion dt a {
   font-size: 1rem;
+  letter-spacing: 1px;
 }
 
 } /* end media query */
