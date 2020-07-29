@@ -880,6 +880,12 @@ h5 {
     letter-spacing: 1px;
   }
 
+  p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
+    font-size: 1.1rem;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 1px;
+  }
+
 .media-flip {
   flex-direction: column-reverse;
 }
