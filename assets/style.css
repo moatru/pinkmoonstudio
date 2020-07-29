@@ -257,6 +257,17 @@ a:hover {
   transition: 1s;
 }
 
+a.in-text {
+  color: #fdc28e;
+  transition: 1s;
+  text-decoration: none;
+}
+
+a.in-text:hover{
+  color: #a6c8eb;
+  transition: 1s;
+}
+
   header {
     padding: 2% 5%;
   }
