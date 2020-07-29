@@ -286,7 +286,8 @@ a.in-text:hover{
     text-transform: uppercase;
     padding: 0.5rem;
     font-family: 'Modak', cursive;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
     font-weight: 400;
     transition: all 1s}
   }
@@ -302,7 +303,8 @@ a.in-text:hover{
     font-weight: 400;
     text-transform: uppercase;
     border-radius: 2px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
     background-color: #fadede;
     background-image: url("/images/cloudy.gif");
     -webkit-background-clip: text;
@@ -821,7 +823,7 @@ footer {
 }
 
 /* This media query kicks into action at the gridlex sm breakpoint */
-@media(max-width:1024px)
+@media(max-width:1024px){}
 
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
@@ -838,6 +840,11 @@ footer {
     display: block;
   }
 
+  .accordion dt a {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+
   .blog-item-wide .bg-image{
     padding-bottom: 60%;
   }
@@ -849,6 +856,7 @@ footer {
   .capped-width {
     width: 100%;
   }
+
   .flex-flip{
     flex-direction: row;
   }
@@ -880,15 +888,27 @@ h5 {
     letter-spacing: 1px;
   }
 
-  p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
+p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
     font-size: 1.1rem;
     font-family: 'Fredoka One', cursive;
     letter-spacing: 1px;
   }
 
+  header nav a,
+  .inline a {
+    font-size: 1rem;
+    letter-spacing: .5px;
+    padding: 0.2rem;}
+
 .media-flip {
   flex-direction: column-reverse;
 }
+
+header nav a.emphasis {
+  padding: 0.5rem 0.5rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  letter-spacing: .5px;}
 
 .fab, .far, .fas {
   font-size: 2rem;
