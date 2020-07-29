@@ -30,7 +30,6 @@ h6.mollyt{
   font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 1.5rem;
-  text-transform: uppercase;
   line-height: 1;
   font-weight: 400;
   margin-bottom: 0.8rem;
@@ -166,4 +165,12 @@ img.morearrow:hover{
 
     .xs-mob-hide {
       display: none;
+    }
+
+  /* This media query kicks into action at the gridlex xs breakpoint */
+    @media(max-width:576px) {
+      h6.mollyt{
+        font-size: 4.5rem;
+        letter-spacing: 1rem;
+      }
     }
