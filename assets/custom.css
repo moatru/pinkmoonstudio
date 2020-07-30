@@ -164,7 +164,7 @@ img.morearrow:hover{
     font-weight: 400;}
 
     .container {
-      min-height: 80vh;
+      min-height: 60vh;
     }
 
     .xs-mob-hide {
@@ -178,10 +178,10 @@ img.morearrow:hover{
         letter-spacing: 1rem;
       }
 
-      .container {
+      /* .container {
         position: relative;
         max-width: 100%; /* Maximum width */
-        min-height: 90vh;
+        min-height: 0vh;
         margin: 0 auto; /* Center it */
-      }
+      } */
     }
