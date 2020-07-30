@@ -805,9 +805,9 @@ footer {
   height: 1rem;
   line-height: 1;
   text-align: center;
-  -webkit-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all .85s;
+  -o-transition: all .85s;
+  transition: all .85s;
 }
 
 
@@ -902,7 +902,7 @@ h5 {
     letter-spacing: 1px;
   }
 
-p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
+p.emphasis {
     font-size: 1.1rem;
     font-family: 'Fredoka One', cursive;
     letter-spacing: 1px;
@@ -935,3 +935,18 @@ header nav a.emphasis {
 }
 
 } /* end media query */
+
+/* Teeny Tiny Phone Size */
+@media(max-width:370px) {
+
+p.emphasis {
+    font-size: 1rem;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: .2px;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+    letter-spacing: .5px;
+
+}
