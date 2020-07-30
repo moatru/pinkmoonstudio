@@ -52,15 +52,6 @@
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
 
   /* General typography */
-
- h3,h6 {
-    line-height: 1;
-    margin-bottom: 0.8rem;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-family: 'Fredoka One', cursive;
-  }
-
   h2  { font-size: 3rem;
         font-family: 'Modak', cursive;
         font-weight: 400;
@@ -69,9 +60,21 @@
         margin-bottom: 0.8rem;
         text-transform: uppercase;}
 
+  a h2 {
+    color: #100113;
+    transition: all 1s;
+  }
+
+  a h2:hover {
+    color: #fadede;
+    transition: all 1s;
+  }
+
   h3  { font-size: 2.2rem;
         font-family: 'Modak', cursive;
         text-transform: uppercase;
+        line-height: 1;
+        margin-bottom: 0.8rem;
         letter-spacing: 3px;
         font-weight: 400;}
 
@@ -92,6 +95,13 @@
         line-height: 1;
         margin-bottom: 0.8rem;
         text-transform: uppercase;}
+
+  h6 { line-height: 1;
+        margin-bottom: 0.8rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: 'Fredoka One', cursive;
+         }
 
   p   { font-size: 1rem; }
 
@@ -294,6 +304,7 @@ a.in-text:hover{
   }
   nav a:hover {
     color: #a6c8eb;
+    transition: all 1s
   }
 
   header nav a.emphasis {
@@ -892,6 +903,16 @@ footer {
     flex-direction: row;
   }
 
+  h2 {
+    font-size: 2.7rem;
+    letter-spacing: 4px;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+  }
+
   h3 {
      font-size: 2rem;
      letter-spacing: 3px;
@@ -904,8 +925,8 @@ footer {
 @media(max-width:576px) {
 
 h2 {
-  font-size: 2rem;
-  letter-spacing: 4px;
+  font-size: 2.1rem;
+  letter-spacing: 2px;
 }
 
 h3 {
@@ -924,8 +945,8 @@ h5 {
   }
 
 p.emphasis {
-    font-size: 1.1rem;
-    letter-spacing: 1px;
+    font-size: .9rem;
+    letter-spacing: .5px;
   }
 
 header nav a,
@@ -971,9 +992,19 @@ form .button {
 @media(max-width:375px) {
 
 p.emphasis {
-    font-size: 1rem;
+    font-size: .9rem;
     font-family: 'Fredoka One', cursive;
     letter-spacing: .2px;
+  }
+
+  h2 {
+    font-size: 1.9rem;
+    letter-spacing: 1px;
+  }
+
+  h4 {
+    font-size: 1rem;
+    letter-spacing: .5px;
   }
 
   h3 {
