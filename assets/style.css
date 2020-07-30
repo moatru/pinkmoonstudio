@@ -633,6 +633,7 @@ footer {
     border-radius: 0;
     font-size: 1rem;
   }
+
    form .button {
      width:100%;
      background-color: white;
@@ -950,6 +951,10 @@ header nav a.emphasis {
 .accordion dt a {
   font-size: 1rem;
   letter-spacing: .2px;
+}
+
+form .button {
+  color: #a6c8eb;
 }
 
 } /* end media query */
