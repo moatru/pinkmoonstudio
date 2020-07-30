@@ -802,7 +802,7 @@ footer {
   right: 0;
   display: block;
   width: 1rem;
-  height: 1rem;
+  height: 1.5rem;
   line-height: 1;
   text-align: center;
   -webkit-transition: all .85s;
@@ -814,8 +814,9 @@ footer {
 .accordion dt a::after {
   content: ":)";
   transform: rotateZ(90deg);
-  padding: 0 1rem;
+  padding: .2rem 1rem;
   color: #a6c8eb;
+  font-size: 1.2rem;
 }
 
 .accordion dt .open::after {
@@ -865,8 +866,12 @@ footer {
   }
 
   .accordion dt a {
-    font-size: 1.2rem;
-    letter-spacing: 1px;
+    font-size: 1.1rem;
+    letter-spacing: .2px;
+  }
+
+  .accordion dt a::after {
+    font-size: 1rem;
   }
 
   .blog-item-wide .bg-image{
@@ -921,7 +926,7 @@ p.emphasis {
     letter-spacing: 1px;
   }
 
-  header nav a,
+header nav a,
   .inline a {
     font-size: 1rem;
     letter-spacing: .5px;
@@ -944,10 +949,17 @@ header nav a.emphasis {
 
 .accordion dt a {
   font-size: 1rem;
-  letter-spacing: 1px;
+  letter-spacing: .2px;
 }
 
 } /* end media query */
+
+@media(max-width:423px) {
+.accordion dt a {
+    font-size: .9rem;
+    letter-spacing: .1px;
+}
+}
 
 /* Teeny Tiny Phone Size */
 @media(max-width:375px) {
@@ -960,6 +972,15 @@ p.emphasis {
 
   h3 {
     font-size: 1.7rem;
-    letter-spacing: .5px;
+    letter-spacing: .5px;}
+
+  .accordion dt a {
+      font-size: .87rem;
+      letter-spacing: 0px;
+    }
+
+  .accordion dt a::after {
+      font-size: .87rem;
+    }
 
 }
