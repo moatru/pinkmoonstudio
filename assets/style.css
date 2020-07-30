@@ -585,6 +585,7 @@ footer {
     width: 100%;
     font-size: 1rem;
     vertical-align: top;
+    font-family: 'Quicksand', sans-serif;
   }
 
   input:focus,
