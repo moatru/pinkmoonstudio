@@ -13,12 +13,14 @@
 h4.landing {
   font-size: 1.3rem;
   color: #fdc28e;
-  font-family: 'Fredoka One', cursive;}
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 1px;}
 
 h2.landing {
   font-size: 4rem;
   color: #100113; font-family: 'Modak', cursive;
   text-transform: uppercase;
+  letter-spacing: 1px;
   font-weight: 400;}
 
 .title {
@@ -144,6 +146,8 @@ img.morearrow:hover{
    transform: translateX(30px);
   transition: all 2s;
 }
+
+
 
 
 /* This media query kicks into action at the gridlex sm breakpoint */
