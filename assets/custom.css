@@ -1,46 +1,29 @@
-
-.bg-landing {
-  background-image: url('../images/pinkmoon.gif');
-  background-position: center;
-  min-height: 85vh;
-  background-size: cover;
-}
-
-.pms {
-  margin-top: 15rem;
-}
-
+/* LANDING PAGE FONTS / TEXTS */
 h4.landing {
   font-size: 1.3rem;
   color: #fdc28e;
   font-family: 'Fredoka One', cursive;
   letter-spacing: 1px;}
 
-h2.landing {
+a h2.landing {
   font-size: 4rem;
-  color: #100113; font-family: 'Modak', cursive;
+  color: #100113;
+  font-family: 'Modak', cursive;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: 400;}
+  font-weight: 400;
+  transition: all 1s;}
+
+a h2.landing:hover {
+    color: #a6c8eb;
+    }
 
 .title {
   position:relative;
   bottom:-10px;
 }
 
-h6.mollyt{
-  font-size: 6rem;
-  text-transform: uppercase;
-  letter-spacing: 1.5rem;
-  line-height: 1;
-  font-weight: 400;
-  margin-bottom: 0.8rem;
-  font-family: 'Londrina Outline', cursive;
-  background-image: url("/images/lightglitter.gif");
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
+/* LANDING PAGE GIF & TEXT CLASSES */
 .container {
   position: relative;
   max-width: 100%; /* Maximum width */
@@ -55,14 +38,7 @@ h6.mollyt{
   width: 100%; /* Full width */
 }
 
-img.home{
-  position: absolute;
-  margin: 0 auto; /* Center it */
-  max-width: 10%; /* Maximum width */
-  min-height: 10vh;
-  z-index: -1;
-}
-
+/* ABOUT US / SERVICES LIST EMOJI & TEXT CLASSES */
 .star {
   font-size: 1.3rem;
   background-image: url("/images/cloudy.gif");
@@ -77,58 +53,7 @@ img.home{
   padding: 0px 0px 0px 39px;
 }
 
-/* ARROW BUTTON - OUR WORK NAV */
-.arrow-button {
-  font-family: 'Fredoka One', cursive;
-  font-weight: 400;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  font-size: .5rem;
-  padding: .94em;
-  background-color: #fadede;
-  display: inline-block;
-  position: relative;
-  color: #100113;
-}
-
-.arrow-button:after {
-  border: 13px solid transparent;
-  content: ' ';
-  height:0;
-  width:0;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  border-left-color: #fadede;
-}
-
-.arrow-button:before {
-  border: 12.8px solid #fadede;
-  content: ' ';
-  height:0;
-  width:0;
-  position: absolute;
-  top: 0;
-  left: -25px;
-  border-left-color: transparent;
-  z-index: -99999;
-}
-
-.arrow-button:hover {
-  background-color: #a6c8eb;
-}
-
-.arrow-button:hover:before {
-  border:13px solid #a6c8eb;
-  border-left-color: transparent;
-}
-
-.arrow-button:hover:after {
-  border:12.8px solid transparent;
-  border-left-color: #a6c8eb;
-}
-
-/* ILLUSTRATION TRANSFORM */
+/* BLOBS ILLUSTRATION TRANSFORM */
 img.illustration {
   transition: all 2s;
 }
@@ -138,6 +63,7 @@ img.illustration:hover {
   transition: all 2s;
 }
 
+/* SEE MORE ARROW ILLUSTRATION ANIMATION */
 img.morearrow {
   transition: all 2s;
 }
@@ -147,17 +73,28 @@ img.morearrow:hover{
   transition: all 2s;
 }
 
-
-
+/* MOLLY T SPECIAL FONT PORTFOLIO DETAIL PAGE */
+h6.mollyt{
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5rem;
+  line-height: 1;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+  font-family: 'Londrina Outline', cursive;
+  background-image: url("/images/lightglitter.gif");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 /* This media query kicks into action at the gridlex sm breakpoint */
-@media(max-width:768px) {
-  h4.landing {
+  @media(max-width:768px) {
+    h4.landing {
     font-size: 1rem;
     color: #fdc28e;
     font-family: 'Fredoka One', cursive;}
 
-  h2.landing {
+    h2.landing {
     font-size: 3rem;
     color: #100113; font-family: 'Modak', cursive;
     text-transform: uppercase;
@@ -167,12 +104,8 @@ img.morearrow:hover{
       min-height: 60vh;
     }
 
-    .xs-mob-hide {
-      display: none;
-    }
-
   /* This media query kicks into action at the gridlex xs breakpoint */
-    @media(max-width:576px) {
+  @media(max-width:576px) {
       h6.mollyt{
         font-size: 4.5rem;
         letter-spacing: 1rem;
