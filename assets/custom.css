@@ -164,7 +164,7 @@ img.morearrow:hover{
     font-weight: 400;}
 
     .container {
-      min-height: 50vh;
+      min-height: 80vh;
     }
 
     .xs-mob-hide {
@@ -176,5 +176,12 @@ img.morearrow:hover{
       h6.mollyt{
         font-size: 4.5rem;
         letter-spacing: 1rem;
+      }
+
+      .container {
+        position: relative;
+        max-width: 100%; /* Maximum width */
+        min-height: 90vh;
+        margin: 0 auto; /* Center it */
       }
     }
