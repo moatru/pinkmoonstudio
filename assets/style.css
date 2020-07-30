@@ -138,7 +138,7 @@
   p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
     font-size: 1.1rem;
     font-family: 'Fredoka One', cursive;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
 
   p.bullets {
@@ -835,6 +835,20 @@ footer {
       }
 }
 
+@media(max-width:948px){
+   h3 {
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+      }
+}
+
+@media(max-width:774px){
+  p.emphasis{
+        font-size: 1.1rem;
+        letter-spacing: .5px;
+  }
+}
+
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
 
@@ -904,7 +918,6 @@ h5 {
 
 p.emphasis {
     font-size: 1.1rem;
-    font-family: 'Fredoka One', cursive;
     letter-spacing: 1px;
   }
 
