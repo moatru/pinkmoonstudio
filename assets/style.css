@@ -30,7 +30,8 @@
   .left     {  text-align: left;     }
   .right    {  text-align: right;    }
   .centered {  text-align: center;   }
-  .bottom   { text-align: bottom;   }
+  .boxed    {  text-align: justify;  }
+  .bottom   { text-align: bottom;    }
 
   .padded   {  padding:  2% 5% 2% 5%;    }
   .padded-work {padding: 4%}
@@ -804,9 +805,9 @@ footer {
   height: 1rem;
   line-height: 1;
   text-align: center;
-  -webkit-transition: all .35s;
-  -o-transition: all .35s;
-  transition: all .35s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 
 
@@ -822,8 +823,17 @@ footer {
   content: ':P';
 }
 
-/* This media query kicks into action at the gridlex sm breakpoint */
-@media(max-width:1024px){}
+/* This media query kicks into action at the gridlex m breakpoint */
+@media(max-width:1024px){
+
+}
+
+@media(max-width:948px){
+   h3 {
+      font-size: 1.8rem;
+      letter-spacing: 2px;
+      }
+}
 
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
@@ -861,6 +871,11 @@ footer {
     flex-direction: row;
   }
 
+  h3 {
+     font-size: 2rem;
+     letter-spacing: 3px;
+     }
+
 } /* end media query */
 
 
@@ -873,10 +888,9 @@ h2 {
 }
 
 h3 {
-    font-size: 1.7rem;
-    letter-spacing: 3px;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
     }
-
 
 h4 {
   font-size: 1.1rem;
