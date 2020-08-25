@@ -87,6 +87,23 @@ h6.mollyt{
   -webkit-text-fill-color: transparent;
 }
 
+/* TEMPLATES CSS */
+.banner-template1, .banner-with-header-template3 {
+  background-image: url('../images/light-floral3.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  background-repeat: no-repeat;
+}
+
+.bg-image-template {
+  background-image: url('../images/light-floral4.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 25rem;
+  background-repeat: no-repeat;
+}
+
 /* This media query kicks into action at the gridlex sm breakpoint */
   @media(max-width:768px) {
     h4.landing {
