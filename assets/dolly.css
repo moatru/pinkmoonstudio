@@ -13,11 +13,13 @@
   img {
     max-width: 100%; /* this ensures images never break their container */
     height: auto;
+    align: center;
   }
 
   body {
-    font-family: 'Quicksand', sans-serif;
-    color: #100113;
+    font-family: 'Noto Sans HK', sans-serif;
+    color: #889f4f;
+    font-family: 'PT Sans', sans-serif;
   }
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -30,13 +32,9 @@
   .left     {  text-align: left;     }
   .right    {  text-align: right;    }
   .centered {  text-align: center;   }
-  .boxed    {  text-align: justify;  }
-  .bottom   { text-align: bottom;    }
 
-  .padded   {  padding:  2% 5% 2% 5%;    }
-  .padded-work {padding: 4%}
-  .padded-title {padding: 0% 0% 5% 0%}
-  .padded-1 {  padding: 2%;  }
+  .padded   {  padding: 3% 5%;    }
+  .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
 
   .capped-width { width: 80%; margin: auto;}
@@ -44,66 +42,33 @@
   .tall-50  {  min-height: 50vh;   }
   .tall-100 {  min-height: 100vh;  }
 
-  .dark-bg      {  background-color: #425783;     }
-  .light-bg     {  background-color:#f9ebea;  }
-  .featured-bg  {  background-color:#f3b4a1;       }
+  .dark-bg      {  background-color: #446fa4     }
+  .light-bg     {  background-color: #446fa4;  }
+  .featured-bg  {  background-color: #ffdfc3;       }
 
   .light-text   { color: white; }
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
 
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
   /* General typography */
-  h2  { font-size: 3rem;
-        font-family: 'Modak', cursive;
-        font-weight: 400;
-        letter-spacing: 8px;
-        line-height: 1;
-        margin-bottom: 0.8rem;
-        text-transform: uppercase;}
 
-  a h2 {
-    color: #100113;
-    transition: all 1s;
+  h2, h3, h4, h5, h6 {
+    line-height: 1;
+    margin-bottom: 0.8rem;
+    font-family: 'Kavivanar', cursive;
+    color: #d6ce3b;
   }
 
-  a h2:hover {
-    color: #fadede;
-    transition: all 1s;
-  }
-
-  h3  { font-size: 2.2rem;
-        font-family: 'Modak', cursive;
-        text-transform: uppercase;
-        line-height: 1;
-        margin-bottom: 0.8rem;
-        letter-spacing: 3px;
-        font-weight: 400;}
-
-  h4  { font-size: 1.5rem;
-        color: #a6c8eb;
-        font-family: 'Fredoka One', cursive;
-        font-weight: 400;
-        letter-spacing: 2px;
-        line-height: 1;
-        margin-bottom: 0.8rem;
-        text-transform: uppercase;}
-
-  h5 { font-size: 1.2rem;
-        color: #a6c8eb;
-        font-family: 'Fredoka One', cursive;
-        font-weight: 400;
-        letter-spacing: 1.5px;
-        line-height: 1;
-        margin-bottom: 0.8rem;
-        text-transform: uppercase;}
-
-  h6 { line-height: 1;
-        margin-bottom: 0.8rem;
-        text-transform: uppercase;
-        font-weight: 400;
-        font-family: 'Fredoka One', cursive;
-         }
-
-  p   { font-size: 1rem; }
+  h2  { font-size: 2.2rem;  }
+  h3  { font-size: 1.8rem;  }
+  h4  { font-size: 1.4rem;  }
+  p   { font-size: 1rem;  }
 
   p, ul {
      margin-bottom: 0.8rem;
@@ -121,9 +86,14 @@
 
   hr { /* this is a line element */
     border: none;
-    border-bottom: 3px solid;
-    width: 4rem;
-    margin-bottom: 1rem;
+    border-bottom: 2px solid;
+    width: 85vw;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px;
+
   }
 
   /* ------- unique typography styles - adjust to suit your styles  --------- */
@@ -132,61 +102,30 @@
   .no-bullets { list-style:none; } /* Used to remove dot-points from a list */
 
   .big-bold {
-    text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #425783;
-  }
-
-  .big-bold-logo {
-    text-transform: uppercase;
     font-size: 3rem;
     font-weight: 700;
-    color: #f3b4a1;
   }
 
   p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
-    font-size: 1.1rem;
-    font-family: 'Fredoka One', cursive;
-    letter-spacing: 1px;
-  }
-
-  h3.packages  {
-        font-size: 2.8rem;
-        font-family: 'Modak', cursive;
-        font-weight: 400;
-        letter-spacing: 8px;
-        line-height: 1;
-        text-transform: uppercase;
-        color: #100113; }
-
-  p.bullets {
-    margin-bottom: 0.3rem;
+    font-size: 1.2rem;
   }
 
   /* Icons */
- /* default styles for font awesome icons */
-  .fab, .fas, .far{
-    padding: 1rem;
-    font-size: 2rem;
+
+  .far, .fas, .fab {        /* default styles for font awesome icons */
+    font-size: 1.2rem;
     margin-bottom: 1rem;
-    color: #fadede;
-    transition: 1s
   }
 
-  .templates {
-    font-size: 4rem;
+  .fas {        /* default styles for font awesome icons */
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #446fa4;
   }
-
-.far:hover, .fab:hover{
-  color: #a6c8eb;
-  transition: 1s;
-}
-
 
   .featured-stat {     /* styles for our featured statistic icons  */
     font-size: 3rem;
-    color: #a6c8eb;
+    color: #446fa4;
     margin-bottom: 1rem;
     display: block;
   }
@@ -210,21 +149,18 @@
   .button-solid,
   .button-inverted {
     text-decoration: none;
-    color: #fdc28e;
+    color: #446fa4;
     border: 2px solid;
-    padding: 1rem 1rem;
-    margin: 1rem .8rem 0 0;
+    padding: 0.6rem 2rem;
+    margin-top: 1rem;
     display: inline-block;
     text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: 500;
-    transition: all 1s;
-    font-family: 'Fredoka One', cursive;
-
   }
 
   .button:hover {
-    color: #a6c8eb;
+    color: rgb(60, 60, 60);
   }
 
   .button.inverted {   /* this is for a button on a dark background */
@@ -238,15 +174,16 @@
   }
 
   .button-solid {
-    background-color: #fadede;
-    border-color: #fadede;
-    color: #100113;
+    background-color: #446fa4;
+    border-color: #446fa4;
+    color: white;
+    transition: all 2s;
   }
 
   .button-solid:hover {
-    background-color: #a6c8eb;
-    border-color: #a6c8eb;
-    color: #100113;
+    background-color: #d6ce3b;
+    border-color: #d6ce3b;
+    transition: all 2s;
   }
 
   .arrow { /* this is the arrow button */
@@ -271,27 +208,6 @@
 
 
   /* Headers and footers */
-a {
-  color: #fadede;
-  transition: 1s;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #a6c8eb;
-  transition: 1s;
-}
-
-a.in-text {
-  color: #fdc28e;
-  transition: 1s;
-  text-decoration: none;
-}
-
-a.in-text:hover{
-  color: #a6c8eb;
-  transition: 1s;
-}
 
   header {
     padding: 2% 5%;
@@ -307,43 +223,29 @@ a.in-text:hover{
   header nav a,
   .inline a {
     display: inline-block;
-    text-transform: uppercase;
+    font-size: 1rem;
     padding: 0.5rem;
-    font-family: 'Modak', cursive;
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    font-weight: 400;
-    transition: all 1s}
+    color: #d6ce3b;
+    transition: all 2s;
+    text-transform: uppercase;
+    font-family: 'Kavivanar', cursive;
   }
   nav a:hover {
-    color: #a6c8eb;
-    transition: all 1s
+    color: #889f4f;
+    transition: all 2s;
   }
 
   header nav a.emphasis {
-    padding: 0.5rem 2rem;
+    /* padding: 0.5rem 2rem; */
     margin: 0 0.5rem;
-    /* border: 1px solid url("/images/pastel.gif"); */
-    font-family: 'Modak', cursive;
-    font-weight: 400;
-    text-transform: uppercase;
+    border: 1px solid #e67e22;
     border-radius: 2px;
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    background-color: #fadede;
-    background-image: url("/images/cloudy.gif");
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 5px;}
+    color: #e67e22;
   }
 
-
   header nav a.emphasis:hover {
-    background-color: white;
-    color: #a6c8eb;
-    background-image: none;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: #a6c8eb;
+    background-color: #e67e22;
+    color: white;
   }
 
   /* Dropdown Header */
@@ -376,7 +278,6 @@ a.in-text:hover{
 
   header.fixed {
     position: fixed;
-    background-color: #f9ca24;
     top:0;
     left:0;
     right:0;
@@ -385,9 +286,18 @@ a.in-text:hover{
     padding: 1%;
     text-align: center;
   }
+
+
+  header.fixed.scrolled {
+  background-color: white !important;
+  transition: background-color 500ms linear;
+}
+
+
   .bump-for-header {
     min-height: 4rem;
   }
+
 
 
   /* Hamburger Menu */
@@ -426,9 +336,6 @@ a.in-text:hover{
 
 
   /* -- Footer -- */
-footer {
-  background-color: white;
-}
 
   footer .info {
     padding-right: 3rem;
@@ -446,11 +353,10 @@ footer {
 
   .banner,
   .banner-with-header {
-    background-image: url('../images/freebiegraphic.jpg');
-    background-size: contain;
+    background-image: url('../images/garden.jpg');
+    background-size: cover;
     background-position: center;
     min-height: 80vh;
-    background-repeat: no-repeat;
   }
 
   .fixed {
@@ -477,11 +383,10 @@ footer {
   }
 
   .bg-image {
-    background-image: url('../images/freebiegraphic.jpg');
-    background-size: contain;
+    background-image: url('../images/adventure.jpg');
+    background-size: cover;
     background-position: center;
-    min-height: 25rem;
-    background-repeat: no-repeat;
+    min-height: 10rem;
   }
   /* Hover grid */
 
@@ -603,19 +508,18 @@ footer {
   input,
   textarea {
     border-style: solid;
-    border: 2px solid #fadede;
+    border: 2px solid #446fa4;
     padding: 0.8em;
     display: block;
     width: 100%;
     font-size: 1rem;
     vertical-align: top;
-    font-family: 'Quicksand', sans-serif;
   }
 
   input:focus,
   textarea:focus {
     outline: none;
-    border: 2px solid #a6c8eb;
+    border: 2px solid #d6ce3b;
     /* featured color */
   }
 
@@ -632,20 +536,6 @@ footer {
     padding: 5px;
   }
 
-  /* ----------- INPUT FIELDS FOR GET IN TOUCH ----------- */
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #fdc28e;
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: #fdc28e;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: #fdc28e;
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: #fdc28e;
-}
-
   .email-signup input {
     width: 30%;
     display: inline-block;
@@ -658,11 +548,8 @@ footer {
     border-radius: 0;
     font-size: 1rem;
   }
-
    form .button {
      width:100%;
-     background-color: white;
-     color: #fadede;
    }
 
    @media(max-width:768px) {
@@ -801,24 +688,18 @@ footer {
   height: 100%;
 }
 
-/* FAQ SECTION */
 /* Accordian slides */
 
 .accordion dt a {
-  padding: 0.25rem 1rem;
+  padding: 0.25rem;
   margin: 0.25rem 0;
   display:block;
-  color: #fdc28e;
+  color: white;
   position: relative;
-  font-size: 1.3rem;
-  letter-spacing: 1.5px;
   text-decoration: none;
-  font-family: 'Fredoka One', cursive;
-  text-transform: uppercase;
-
 }
 .accordion dd {
-  padding: 1.2rem 1rem 2.5rem 1rem;
+  padding: 0.5rem;
 }
 
 /* Accordian Icon */
@@ -828,76 +709,35 @@ footer {
   right: 0;
   display: block;
   width: 1rem;
-  height: 1.5rem;
+  height: 1rem;
   line-height: 1;
   text-align: center;
-  -webkit-transition: all .85s;
-  -o-transition: all .85s;
-  transition: all .85s;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
 }
 
-
+/* NEED DANIELs HELP to stop auto popping back open, and make the thing twist */
 .accordion dt a::after {
-  content: ":)";
-  transform: rotateZ(90deg);
-  padding: .2rem 1rem;
-  color: #a6c8eb;
-  font-size: 1.2rem;
+  content: "+";
 }
-
-.accordion dt .open::after {
-  transform: rotateZ(450deg);
-  content: ':P';
-}
-
-/* This media query kicks into action at the gridlex m breakpoint */
-@media(max-width:1024px){
-
-}
-
-@media(max-width:948px){
-   h3 {
-      font-size: 1.8rem;
-      letter-spacing: 2px;
-      }
-}
-
-@media(max-width:948px){
-   h3 {
-      font-size: 1.8rem;
-      letter-spacing: 2px;
-      }
-}
-
-@media(max-width:774px){
-  p.emphasis{
-        font-size: 1.1rem;
-        letter-spacing: .5px;
-  }
+.open::after {
+  transform: rotateZ(45deg);
 }
 
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
 
+  h2  { font-size: 2rem;  }
+  h3  { font-size: 1.6rem;  }
+  h4  { font-size: 1.4rem;  }
+
   .mob-hide {
     display: none;
   }
 
-  img.mob-hide{
-    display:none;
-  }
-
   .hamburger{
     display: block;
-  }
-
-  .accordion dt a {
-    font-size: 1.1rem;
-    letter-spacing: .2px;
-  }
-
-  .accordion dt a::after {
-    font-size: 1rem;
   }
 
   .blog-item-wide .bg-image{
@@ -911,126 +751,22 @@ footer {
   .capped-width {
     width: 100%;
   }
-
   .flex-flip{
     flex-direction: row;
   }
-
-  h2 {
-    font-size: 2.7rem;
-    letter-spacing: 4px;
-  }
-
-  h4 {
-    font-size: 1.25rem;
-    letter-spacing: 1px;
-  }
-
-  h3 {
-     font-size: 2rem;
-     letter-spacing: 3px;
-     }
 
 } /* end media query */
 
 
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px) {
-
-h2 {
-  font-size: 2.1rem;
-  letter-spacing: 2px;
-}
-
-h3 {
-    font-size: 1.8rem;
-    letter-spacing: 2px;
-    }
-
-h4 {
-  font-size: 1.1rem;
-  letter-spacing: 1px;
-}
-
-h5 {
-    font-size: 1rem;
-    letter-spacing: 1px;
+  .banner-with-header {
+    padding-top: 6rem;
+    min-height: 80vh;
   }
 
-p.emphasis {
-    font-size: .9rem;
-    letter-spacing: .5px;
-  }
-
-header nav a,
-  .inline a {
-    font-size: 1rem;
-    letter-spacing: .5px;
-    padding: 0.2rem;}
-
-
-header nav a.emphasis {
-  padding: 0.5rem 0.5rem;
-  margin: 0;
-  font-size: 1rem;
-  letter-spacing: .5px;}
-
-.media-flip {
-    flex-direction: column-reverse;
-  }
-
-.fab, .far {
-  font-size: 2rem;
-}
-
-.accordion dt a {
-  font-size: 1rem;
-  letter-spacing: .2px;
-}
-
-form .button {
-  color: #a6c8eb;
-}
+  h2  { font-size: 1.8rem;  }
+  h3  { font-size: 1.4rem;  }
+  h4  { font-size: 1.2rem;  }
 
 } /* end media query */
-
-@media(max-width:423px) {
-.accordion dt a {
-    font-size: .9rem;
-    letter-spacing: .1px;
-}
-}
-
-/* Teeny Tiny Phone Size */
-@media(max-width:375px) {
-
-p.emphasis {
-    font-size: .9rem;
-    font-family: 'Fredoka One', cursive;
-    letter-spacing: .2px;
-  }
-
-  h2 {
-    font-size: 1.9rem;
-    letter-spacing: 1px;
-  }
-
-  h4 {
-    font-size: 1rem;
-    letter-spacing: .5px;
-  }
-
-  h3 {
-    font-size: 1.7rem;
-    letter-spacing: .5px;}
-
-  .accordion dt a {
-      font-size: .87rem;
-      letter-spacing: 0px;
-    }
-
-  .accordion dt a::after {
-      font-size: .87rem;
-    }
-
-}
