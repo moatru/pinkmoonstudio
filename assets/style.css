@@ -176,6 +176,7 @@
 
   .templates {
     font-size: 4rem;
+    color: #425783 ;
   }
 
 .far:hover, .fab:hover{
@@ -238,15 +239,15 @@
   }
 
   .button-solid {
-    background-color: #fadede;
-    border-color: #fadede;
-    color: #100113;
+    background-color: #425783;
+    color: #fadede;
+    border-radius: 40px;
   }
 
   .button-solid:hover {
     background-color: #a6c8eb;
     border-color: #a6c8eb;
-    color: #100113;
+    color: #fadede;
   }
 
   .arrow { /* this is the arrow button */
