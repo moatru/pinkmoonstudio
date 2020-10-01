@@ -104,6 +104,8 @@ h6.mollyt{
   background-repeat: no-repeat;
 }
 
+/* TEMPLATE 1 CSS */
+
 /* This media query kicks into action at the gridlex sm breakpoint */
   @media(max-width:768px) {
     h4.landing {
