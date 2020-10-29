@@ -110,14 +110,13 @@
   }
 
   /* Icons */
-
-  .far, .fas {        /* default styles for font awesome icons */
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  .fab, .far, .fas {        /* default styles for font awesome icons */
+    font-size: 1.5rem;
   }
 
-  .fab, .fas {        /* default styles for font awesome icons */
-    font-size: 1.5rem;
+  .services {        /* default styles for font awesome icons */
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
   }
 
   .featured-stat {     /* styles for our featured statistic icons  */
@@ -128,13 +127,14 @@
   }
 
   .highlight { /* this is applied to spans for out highlighted text. */
-    background-color: rgba(240, 240, 245, .5);
+    background-color: rgba(243, 193, 169, .4);
     display: inline-block;
     padding: 0.5rem;
     margin: 2px;
     border-radius: 20px;
+    color: white;
+    line-height: 0em;
   }
-
 
   mark {
     display: inline-block;
@@ -148,7 +148,6 @@
   h5 mark {
     background-color: rgba(255, 255, 255, .4);
     color: #1d1d1d;
-
   }
 
   .quote-icon {  /* You can also change the fonts for these icons specifically */
@@ -737,6 +736,13 @@
   transform: rotateZ(45deg);
 }
 
+@media(max-width:806px) {
+
+  h3{
+    font-size: 2.8rem;
+  }
+}
+
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
 
@@ -762,10 +768,36 @@
     flex-direction: row;
   }
 
+  h3{
+    font-size: 2.1rem;
+  }
+
+  .banner {
+    min-height: 50vh;
+  }
+
 } /* end media query */
 
 
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px) {
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+  }
+
+  mark {
+    display: inline-block;
+    line-height: 2rem;
+    padding-bottom: 0rem;
+    background-color: rgba(243, 193, 169, .4);
+    color: white;
+    border-radius: 20px;
+  }
+
 
 } /* end media query */
