@@ -18,6 +18,7 @@
   body {
     font-family: 'Quicksand', sans-serif;
     color: #100113;
+    cursor: url("/images/cursor.png"), auto;
   }
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -276,6 +277,7 @@ a {
   color: #fadede;
   transition: 1s;
   text-decoration: none;
+  cursor: url("/images/cursorhover.png"), auto;
 }
 
 a:hover {

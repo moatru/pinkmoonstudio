@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- Meta Data -->
+    <meta charset="utf-8">
+
+    <!-- Meta data for SEO purposes. -->
+    <title> {{page.title}} </title>
+    <meta name="description" content="{{page.meta-description}}">
+    <meta name="keywords" content="{{page.meta-keywords}}">
+
+    <!-- meta data to tell the browser that your devide is responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <!--  Social media sharing META Tags -->
+    <meta property="og:title" content="{{page.title}}">
+    <meta property="og:description" content="{{page.meta-description}}">
+    <meta property="og:image" content="{{page.featured-image_path}}">
+    <meta property="og:url" content="{{page.url}}">
+    <meta name="twitter:card" content="{{page.meta-description}}">
+    <meta name="og:site_name" content="<!-- ADD SITE NAME HERE -->">
+
+  <!-- end of meta tags -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Modak&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=BenchNine:300|Exo+2:200,500|Inconsolata:400,700|Londrina+Outline&display=swap" rel="stylesheet">
+
+    <!-- Gridlex -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css"></link>
+
+    <!-- Font Awesome Version 5 for Icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+
+    <!-- Magnific Popup for lightbox galleries   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+
+    <!-- CUSTOM STYLE SHEET -->
+    <link rel="stylesheet" href="/assets/style.css"/>
+    <link rel="stylesheet" href="/assets/custom.css"/>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/png" href="/images/pmsFAV.png">
+
+</head>
+
+<body>
+
+    {{content}}
+
+    <!-- adds jQuery library to your site -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
+    <!-- adds Magnific Popups javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+
+    <!-- this is your custom javascript/jQuery file -->
+    <script src="/assets/main.js"></script>
+
+<!-- FOOTER -->
+<footer class="grid padded-1">
+  <div class="col-12-middle centered">
+    <nav class="inline socials">
+      <a href="mailto:info@pinkmoon-studio.com">
+        <i class="far fa-envelope"></i>
+      </a>
+      <a href="https://www.instagram.com/pinkmoonstudioflow/?hl=en" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://giphy.com/pinkmoonstudio" target="_blank">
+        <i class="far fa-file"></i>
+      </a>
+      <a href="https://co.pinterest.com/PinkMoonStudioFlow/boards/" target="_blank">
+        <i class="fab fa-pinterest-p"></i>
+      </a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
